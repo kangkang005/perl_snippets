@@ -314,7 +314,7 @@ sub increment {
   $self->_set_count($self->count + 1);
 }
 
-1;
+;
 
 # Object-oriented programming is covered more thoroughly in perlootut,
 # and its low-level implementation in Perl is covered in perlobj.
